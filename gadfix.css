@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family: 'Manrope', sans-serif;
+}
+
+.nav-link,.title,.request-demo{
+    font-weight: 800;
+}
+
+.logo {
+    width: 2rem;
+    height: 2rem;
+}
+
+
+/*Hero page*/
+.hero-main{
+    background-image: url(image/image\ 1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    border-radius: 30px;
+}
+
+.hero-text{
+    font-weight: 800;
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.486);
+}
+
+.play-icon{
+    width: 8rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.play-icon:hover{
+    width: 9rem;
+}
+
+.hero-para{
+    color: white;
+    font-weight: 800;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.486);;
+}
+
+/*Phone Section*/
+.phone-main{
+    background-image: url(image/image2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    border-radius: 30px;
+}
+
+.phone-right,.phone-left{
+    height: 70vh;
+    width: 100%;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+}
+
+.pb-text{
+    width: 50%;
+}
+
+.pb-text h1{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
+    font-size: 150%;
+}
+
+/*How it works*/
+.works-main h1{
+    font-weight: 800;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.works-main-cont, .want-main-cont{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    border-radius: 30px;
+}
+
+.works{
+    width: 100%;
+    height: 100%;
+}
+
+.work-num{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+}
+
+.work-text{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.work-bottom{
+    margin-top: -20px;
+}
+
+.work-img{
+    width: 60rem;
+    height: 25rem;
+}
+
+/*---wants-__*/
+
+.want-main-cont{
+    background-color: #1B0303;
+}
+
+.want-title h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.want-item{
+    width: 10rem;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.want-img{
+    width: 15rem;
+    height: 15rem;
+}
+
+/*track*/
+
+.track-main-cont{
+    background: url(image/8.jpg);
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+}
+
+.track-in{
+    width: 100%;
+    height: 5rem;
+    border: none;
+}
+
+.track-text{
+    font-size: 42px;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.712);
+}
+
+/*TESTIMONIAL*/
+
+.test-img{
+    width: 5rem;
+}
+
+.testi-item{
+ box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.322);
+}
+
+@media only screen and (max-width: 1000px) {
+    .hero-main{
+        height: 50vh;
+    }
+
+    .work-text{
+        font-size: 11px;
+        font-weight: 500;
+        font-family: 'Work Sans', sans-serif;
+    }
+
+    .works-main-cont{
+        height: 50%;
+    }
+
+    .work-bottom{
+        margin-top: 0;
+    }
+
+
+    .want-main-cont{
+        height: fit-content;
+    }
+
+    .want-cont{
+        padding-top: 20px;
+    }
+  }
